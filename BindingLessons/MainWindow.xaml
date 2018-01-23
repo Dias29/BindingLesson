@@ -1,0 +1,25 @@
+﻿<Window x:Class="BindingLessons.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BindingLessons"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="550">
+    <Grid>
+        <DataGrid x:Name="dataConteiner" AutoGenerateColumns="False" HorizontalAlignment="Left" Height="199" VerticalAlignment="Top" Width="517" AddingNewItem="DataConteinerAddingNewItem">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=Id}" Header="Id" Width="10*"/>
+                <DataGridTextColumn Binding="{Binding Path=From}" Header="Отправление из" Width="35*"/>
+                <DataGridTextColumn Binding="{Binding Path=To}" Header="Прибытие в" Width="30*"/>
+                <DataGridTextColumn Binding="{Binding Path=Price}" Header="Цена" Width="20*"/>
+                <DataGridTextColumn Binding="{Binding Path=TrainNumber}" Header="№ поезда" Width="20*"/>
+                <DataGridTextColumn Binding="{Binding Path=DepartureDate}" Header="Дата убытия" Width="30*"/>
+                <DataGridTextColumn Binding="{Binding Path=ArriveDate}" Header="Дата прибытия" Width="35*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="sourceTextBox" HorizontalAlignment="Left" Height="23" Margin="28,216,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="targetTextBox" HorizontalAlignment="Left" Height="23" Margin="28,244,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Text="{Binding Path=Text, ElementName=sourceTextBox, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+
+    </Grid>
+</Window>

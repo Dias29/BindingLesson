@@ -1,0 +1,14 @@
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\BindingLessons\BindingLessons\bin\Debug\BindingLessons.exe.config
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\BindingLessons\BindingLessons\bin\Debug\BindingLessons.exe
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\BindingLessons\BindingLessons\bin\Debug\BindingLessons.pdb
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\BindingLessons\BindingLessons\obj\Debug\BindingLessons.csprojResolveAssemblyReference.cache
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\BindingLessons\BindingLessons\obj\Debug\MainWindow.g.cs
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\BindingLessons\BindingLessons\obj\Debug\App.g.cs
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\BindingLessons\BindingLessons\obj\Debug\BindingLessons_MarkupCompile.cache
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\BindingLessons\BindingLessons\obj\Debug\BindingLessons_MarkupCompile.lref
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\BindingLessons\BindingLessons\obj\Debug\MainWindow.baml
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\BindingLessons\BindingLessons\obj\Debug\BindingLessons.g.resources
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\BindingLessons\BindingLessons\obj\Debug\BindingLessons.Properties.Resources.resources
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\BindingLessons\BindingLessons\obj\Debug\BindingLessons.csproj.GenerateResource.Cache
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\BindingLessons\BindingLessons\obj\Debug\BindingLessons.exe
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\BindingLessons\BindingLessons\obj\Debug\BindingLessons.pdb
